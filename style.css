@@ -1,0 +1,476 @@
+
+.navbar{
+    width: 100%;
+    height: 15px;
+    padding: 8px;
+    padding-bottom: 40px;
+    background-color: rgba(221,221,221,0.3);
+    justify-content: center;
+    /* position: fixed; */
+
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+ }
+
+ .navbar li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+    float: right;
+    transition: all .3s ease;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .navbar li a:hover {
+    /* background-color: #555; */
+    color:red
+  }
+  
+  #E-store{
+      float: left;
+      font-weight: bold;
+      font-size: 20px;
+      font-family: sans-serif;
+  }
+
+  /* Home page styling start here  */
+ .M_brand{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+ }
+
+ .P_section .Section{
+    width: 45%;
+    height: 49vh;
+    margin-left: 35px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: inline-block;
+    justify-content: center;
+    /* border: solid 5px black ; */
+  
+ }
+
+.P_section .img{
+    width: 85vh;
+    height: 45vh;
+    margin: 10px;
+}
+.M_brand h2{
+    text-align: center;
+    font-weight: 550;
+    font-family: sans-serif;
+    color: #e91e63;
+}
+.M_brand p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: sans-serif;
+    color:lightslategray;
+}
+.M_brand span{
+    color: blue;
+}
+
+/* Image section */
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    width: 25%;
+    height: 30%;
+    border: 1px solid #bbbb;
+    margin: 40px ;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.p-tag{
+    padding: 8px;
+    background-color:#bbbb;
+    margin-top: -2.4px;
+}
+
+.image{
+    width: 100%;
+    height:300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Order-now{
+    padding: 10px;
+    margin: 0 20px 20px 20px;
+    background-color:#186BCA ;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+
+  /* Footer styling start here */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,li{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 50px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    /* color:#ffffff; */
+    text-decoration: none;
+    color: #bbbbbb;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3 ease;
+ }
+ .footer-col ul li a:hover{
+     color: #ffffff;
+     padding-left: 8px;
+ }
+ 
+ .footer-col .social-links a{
+     display:inline-block;
+     height: 40px;
+     width: 40px;
+     background-color: rgba(255,255,255,0.2);
+     margin: 0 10px 10px 0;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 50%;
+     color: #ffffff;
+     transition: all 0.5s ease;
+ 
+ }
+ .footer-col .social-links a:hover{
+   color: #24262b;
+   background-color: #ffffff;
+ }
+ 
+ 
+ /* responsive */
+ @media(max-width:767px){
+     .footer-col {
+         width: 50%;
+         margin-bottom: 30px;
+     }
+ }
+ 
+ @media(max-width:574px){
+     .footer-col {
+         width: 100%;
+     }     
+ }
+
+ /* SIGN UP form styling start here */
+
+ .signup-e-sotre{
+    width: 32.3%;
+    height: 400px;
+    /* background:#faf9f9; */
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    margin: auto;
+   
+ }
+
+.signup-e-sotre .signup{
+    width:60vh;
+    padding: 10px;
+    margin:20px;
+    display: block;
+   
+   
+}
+.signup-e-sotre h1{
+   padding-left: 23px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+   padding-top: 10px;
+   
+}
+
+.signup-e-sotre button{
+    width: 10vh;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #186BCA;
+    color: #fff;
+    float: right;
+    margin-right: 23px;
+    margin-top: -20px;
+}
+
+
+
+/* Login page styling start here */
+
+.login-parent{
+    width: 36%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background: #faf9f9; */
+   
+}
+
+.login-parent .login input{
+    width: 450px;
+    height: 40px;
+    padding: 5px;
+    color: #000;
+    margin-bottom: 15px;
+    margin-left: 18px;
+} 
+
+.login-parent .login a{
+    text-decoration: none;
+}
+.login-parent .login h2{
+    border-bottom: 1px solid #bbbbbb;
+    padding-left: 18px;
+    font-weight: 600;
+    font-size: larger;
+}
+.login-parent .login p{
+    padding-left: 18px;
+}
+ .btn {
+     width: 10vh;
+     height: 5vh;
+     border: none;
+     border-radius: 5px;
+     background-color: #186BCA;
+     color: #ffffff;
+     margin-left: 18px;
+
+}
+
+/* ContactUs form styling starts here */
+
+.Contact{
+    width: 90vh;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    /* background: #faf9f9; */
+}
+.Contact input{
+    display: block; 
+    height: 40px;
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0px 10px 0px;
+}
+#contact{
+    width: 87vh;
+}
+.Contact .btn {
+     margin-left: -1px;
+}
+.Contact h2{
+    font-weight: 600;
+    font-size: bold;
+    margin-bottom: -.1px;
+
+}
+
+.ContactUs{
+    width: 100%;
+    height: 100%;
+    /* flex-direction: row; */
+    display: flex;
+
+}
+.C_S-1{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.C_S-2{
+    width: 50%;
+    align-items: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 40px;
+    line-height: 35px;
+}
+.C_S-2 h2{
+ margin-bottom:-0px;
+ font-weight: 600;
+}
+
+.C_S-2 .social-links span{
+    margin-left: -40px;
+    margin-right:10px;
+
+}
+.C_S-2 a{
+    padding-right: 10px;
+}
+
+
+/* Change password form styling starts here */
+
+.changePwd{
+     width: 30%;
+     align-items: center; 
+     margin: auto;
+     
+}
+.changePwd input{
+    display: block;
+    height: 40px;
+    width: 95%;
+    margin: 12px;
+    padding: 8px;
+}
+.changePwd h2{
+    margin-left: 12px ;
+  
+
+}
+.changePwd .btn{
+     width: 12vh;
+    margin: -1px;
+    margin-left: 11px;
+}
+
+ /* About Us page styling starts here */
+
+ .About{
+    display: flex;
+    margin: 20px;
+ }
+ .About .A_h1{
+    font-size: 25px;
+    font-weight: 500;
+    font-family:sans-serif ;
+    color: lightslategray;
+ }
+ .About .S-1{
+    width: 50%;
+    box-sizing: border-box;
+    justify-content: center;
+ }
+ .About .S-1 p{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight:100;
+    justify-content: center;
+ }
+
+ .About .S-2{
+    width: 50%;
+    box-sizing: border-box;
+    justify-content: center;
+
+ }
+ .About .S-2 p{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight:100;
+    justify-content: center;
+ }
+ .About .img{
+    width: 98vh;
+    border-radius: 10px;
+ }
+ .S-2 strong{
+    margin-left: 40px;
+ }
+ .S-2 h1{
+    margin-left: 40px;
+ }
+ .S-2 li{
+    padding: 5px;
+ }
+ body .About_f {
+    background: #24262b;
+    height: 10vh;
+    color: #bbbbbb;
+   padding-top: 0.8vh;
+
+ }
