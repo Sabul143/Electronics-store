@@ -1,1 +1,2 @@
 # Electronics-store
+I have created a E-commerce website for mobile brands, on the home page all the brands logo are availabe user can select a particular brand and then he/she will be redirected to a new page where all models of that brand will be availabe with price. It will help customers to select best suitable model as well as save their time. later i will also add (Laptop, Ear phone, Smart  watch and Camera).
